@@ -14,7 +14,7 @@ import json
 # browser.get("https://www.music-flo.com/browse")
 # 현재 날짜 가져오기
 current_date = datetime.now().strftime("%Y-%m-%d")
-folder_path = "appleMusic"
+folder_path = "Apple"
 filename = f"{folder_path}/appleChart100_{current_date}.json"
 # 웹드라이브 설치
 options = ChromeOptions()
