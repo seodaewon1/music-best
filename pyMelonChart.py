@@ -30,4 +30,4 @@ chart_df = pd.DataFrame({
 })
 
 # JSON 파일로 저장 
-chart_df.to_json("MelonChart100.json", force_ascii=False, orient="records")
+chart_df.to_json("melon/MelonChart100.json", force_ascii=False, orient="records")
